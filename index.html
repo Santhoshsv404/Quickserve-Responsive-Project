@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickServe</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="side_bar">
+        <div class="side_bar_link_container">
+            <div class="close_button" onclick="closesidebar()">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#About us">About us</a>
+                </li>
+                <li>
+                    <a href="#Services">Services</a>
+                </li>
+                <li>
+                    <a href="#contactform">Contact us</a>
+                </li>
+              
+                    
+                
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="header">
+     
+    
+        <nav class="main_container">
+            <a href="#" class="nav_logo"><span >Q</span>uickServe</a>
+            <div class="link_container">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About us">About us</a>
+                    </li>
+                    <li>
+                        <a href="#Services">Services</a>
+                    </li>
+                        
+                </ul>
+            </div>
+            <div class="button">
+                <button class="nav_button">
+                   <a href="#contactform"><h4>Contact us</h4></a> 
+                </button>
+            </div>
+            <div class="menu_button" onclick="opensidebar()">
+
+                <i class="fa-solid fa-bars" style="color: #000000;" ></i>
+
+            </div>
+        </nav>
+
+    </div>
+
+
+    <!--section1 container start-->
+
+    <div class="first_main_container" id="home">
+        <div class="text_conatiner">
+
+            <h1>
+                Order Products<br>Faster Easier
+            </h1>
+            <p>
+                Order your favorite products at any time and we will deliver them right to where you are.
+
+            </p>
+            <button>
+                Order Now     
+            </button>
+
+        </div>
+        <div class="image_container">
+
+            <img src="./images/section1.jpg" alt="first_container_img" width="450px" height="450px"> 
+
+        </div>
+        
+
+    </div>
+
+    <div  class="section2_main_container" id="About us">
+        <div class="section2_image_container">
+            <img src="./images/section2.jpg" alt="section2_img" width="400px" height="400px">
+        </div>
+        <div  class="section2_text_container">
+            <h1>
+                Find out A little more  About us
+            </h1>
+            <p>
+                We are a company dedicated to the distribution of products by delivery to your home or to the place where you are,with the best quality of delivary.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div  class="section3_main_container">
+
+        <div  class="section3_text_container">
+            <h1>
+                Your safety is important
+            </h1>
+            <p>
+                When your order reaches you,we have the health
+                safety protocols,so that you are protected from any disease.Watch the video of how the delivery is made.
+            </p>
+
+        </div>
+        <div class="section3_image_container">
+            <img src="./images/section3.png" alt="section2_img" width="400px" height="400px">
+        </div>
+        
+
+    </div>
+
+    <div class="section4_head" id="Services">
+        <h1>Some Services We Offer</h1>
+
+    </div>
+       
+    <div class="section4_main_container">
+        <div class="box1">
+
+            <h3>Payment Done</h3>
+            <img src="./images/sec4_payment.png" alt="box1_image" width="100px" height="100px">
+            <p>Pay with a Visa or PayPal card or all UPI's avilable.</p>
+            <h5><a href="#">Learn More</a></h5>
+        </div>
+        <div class="box2">
+            <h3>Find Your Product</h3>
+            <img src="./images/sec4_find.png" alt="box2_image" width="100px" height="100px">
+            <p>We offer sale of products through the internet.</p>
+            <h5><a href="#">Learn More</a></h5>
+        </div>
+        <div class="box3">
+            <h3>Product Received</h3>
+            <img src="./images/sec4_received.png" alt="box3_image" width="100px" height="100px">
+            <p>In our app you can see the delay time of your order.</p>
+            <h5><a href="#">Learn More</a></h5>
+
+
+        </div>
+        
+
+    </div>
+
+
+    <div class="section5_main_container">
+        
+        <div class="section5_image_container">
+
+            <img src="./images/sec5_mobile.png" alt="section5_image" width="350px" height="350px">
+
+        </div>
+        <div class="section5_text_container">
+          
+            <h1>Watch Your Delivary At Anytime</h1>
+            <p>With our app you can view the route of your order,from our local headquaters to the place where you are.Look for the app now!</p>
+
+            <div class="section5_buttons">
+                <button class="section5_btn1">
+                    
+                    <h4><i class="fa-brands fa-apple"></i>   App Store</h4>
+                </button>
+                <button class="section5_btn2">
+                    
+                    <h4><i class="fa-brands fa-google-play"></i>  Google Play</h4>
+                </button>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="section6_main_container" id="contactform">
+        <div class="section6_text_container">
+
+            <h1>Contact Us From Here</h1>
+            <p>You can contact from here,you can write to us,call us or visit our service center,we will gladly assist you</p>
+
+        </div>
+        <div class="section6_details_container">
+            
+            <p><b>Telephone</b> : 999-867-676</p>
+            <p><b>Email</b>: QuickServe404@gmail.com</p>
+            <p><b>Location</b> : Bengaluru,BTM Layout</p>
+            <button><h4>Contact Us</h4></button>
+
+        </div>
+
+    </div>
+
+    <div class="section7_main_container">
+
+        <div class="section7_sub_container">
+       
+            <div class="first">
+                <h2><span >Q</span>uickServe</h2>
+                <ul>
+                    <li>Order Products Faster Easier</li>
+                </ul>
+            </div>
+
+            <div class="second">
+                <h2>Our Services</h2>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Discount</a></li>
+                    <li><a href="#">Report a bug</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                </ul>
+            </div>
+
+            <div class="third">
+                <h2>Our Company</h2>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Our mission</a></li>
+                    <li><a href="#">Get in touch</a></li>
+                </ul>
+            </div>
+
+            <div class="fourth">
+                <h2>Community</h2>
+                <ul>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Customer help</a></li>
+                </ul>
+            </div>
+                
+        </div>
+
+
+        
+
+
+    </div>
+
+    <footer>&copy QuickServe.All right reserved</footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
