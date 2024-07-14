@@ -1,7 +1,7 @@
 # Quickserve E-commerce Delivary Project
 <p>The aim of this project is  to build a responsive website for E-commerce store</p>
 
-## Live Demo : [Click here](https://santhoshsv404.github.io/Quickserve-Responsive-Project/)
+## Live Demo : [Click here](https://lucent-seahorse-d4f71b.netlify.app/)
 
 ## Skills Required
 * Html
